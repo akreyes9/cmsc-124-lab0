@@ -1,3 +1,7 @@
-module your-interpreter
+package main
 
-go 1.26
+import "fmt"
+
+func main() {
+	fmt.Println("hello")
+}
